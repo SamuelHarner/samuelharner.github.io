@@ -130,6 +130,10 @@ When using the core files, the demo images, posts, and pages are all included wi
 
 3. Build your site: `bundle exec jekyll serve`
 
+## Extra documentation
+* [YouTube tutorial](https://www.youtube.com/watch?v=wCOInE7-E0I)  
+* [Jekyll docs](https://jekyllrb.com/docs/)
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
