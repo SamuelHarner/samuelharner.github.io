@@ -2,7 +2,7 @@
 layout: post
 title: "Life is a game"
 subtitle: "(my personal perspective on life)"
-background: '/img/posts/01.jpg'
+background: '/img/posts/life-is-a-game/earth-at-night.jpg'
 ---
 
 Life is a massive multiplayer role-playing game. You are a character in this game and so is everyone else, the universe our shared game world. We are all dealt a hand of cards, a form of character sheet, with a set of characteristics and a set of possibilities. How we choose to play our hand and what possibilities we pursue is up to us.

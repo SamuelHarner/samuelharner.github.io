@@ -1,6 +1,6 @@
 title:              Samuel Härner
 email:              harner.samuel@gmail.com
-description:        A stupid blog
+description:        
 author:             Samuel Härner
 baseurl:            ""
 url:                "https://samuelharner.github.io"
@@ -23,3 +23,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+highlighter: rouge
