@@ -157,7 +157,7 @@ Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodont
 
 ## Diet and fasting
 ***
-Many modern diets contain a lot of ultra-processed foods, that are high in saturated fat, salt, and sugar, and a lack of health-promoting nutrients. The long-lived populations in the [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone) all have in common a diet that is high in plants and low in meat. Dietary recommendations made based on the study of genetic mechanisms for growth and repair, such as those from [Valter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/) and [David Sinclair](https://lifespanbook.com/4-interventions/), also echo the sentiment of a diet being high in whole-foods and plants being one that promotes health and longevity. Periods of fasting also provide additional benefits in terms of repair and rejuvenation.
+Many modern diets contain a lot of ultra-processed foods, that are high in saturated fat, salt, and sugar, and a lack of health-promoting nutrients. The long-lived populations in the [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone) all have in common a diet that is high in plants and low in meat. Dietary recommendations made based on the study of genetic mechanisms for growth and repair, such as those from [Valter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/) and [David Sinclair](https://lifespanbook.com/4-interventions/), also echo the sentiment of a diet high in whole-foods and plants being one that promotes health and longevity. Periods of fasting also provide additional benefits in terms of repair and rejuvenation.
 
 #### Recommendations
 Eat a healthy diet, for example one that is: 
