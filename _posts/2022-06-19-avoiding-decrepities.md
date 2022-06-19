@@ -94,6 +94,7 @@ Modern shoes are often designed for fashion or comfort, and not for health.
 #### Learn more
 ###### Watching material: 
 - [Shoespiracy (Extended cut) - Vivobarefoot (9 min)](https://www.youtube.com/watch?v=x_rDFa6kZfI)
+- [The Barefoot Professor - Nature Video (6 min)](https://www.youtube.com/watch?v=7jrnj-7YKZE)
 
 <br />
 
