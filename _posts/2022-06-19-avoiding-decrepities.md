@@ -38,7 +38,7 @@ In some areas of modern society, sleep has become viewed as a luxury which can b
 - [Sleep is your superpower - Matt Walker (19 min)](https://www.youtube.com/watch?v=5MuIMqhT8DM)
 
 ###### Reading material:
-- [Why We Sleep - Matt Walker (book)](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316)
+- [Why We Sleep - Matt Walker (book)](https://www.sleepdiplomat.com/author)
 
 <br />
 
@@ -128,13 +128,13 @@ Pollution, allergies, and poor jaw health has led to more people developing mout
 - [5 Ways To Improve Your Breathing - James Nestor (12 min)](https://www.youtube.com/watch?v=f6yAY1oZUOA)
 
 ###### Reading material:
-- [Breath - James Nestor (book)](https://www.amazon.com/Breath-New-Science-Lost-Art/dp/0735213615)
+- [Breath - James Nestor (book)](https://www.mrjamesnestor.com/breath-book)
 
 <br />
 
 ## Jaw and dental health
 ***
-Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodontics (such as braces), and unnecessary removal of teeth has led to an epidemic of jaw and dental issues around the world. Before the agricultural and industrial revolutions, which made soft processed foods more widespread, humans naturally had better jaw and dental health than modern humans do today, as can be seen by [comparing human skulls from populations that lived before and after the agricultural revolution](https://www.ucd.ie/news/2015/02FEB15/050215-Malocclusion-and-dental-crowding-arose-12000-years-ago-with-earliest-farmers-study-shows.html). Similar comparisons have also been done on generations of native populations before and after they adopt modern diets, and a similar trend is seen that after [adopting a modern diet jaws become narrower and teeth become crowded and crooked](https://www.ericdavisdental.com/facial-orthotropics-for-your-child/why-raise-unhealthy-children/how-our-ancestors-formed-full-faces-and-straight-teeth/).
+Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodontics (such as braces), and unnecessary removal of teeth have led to an epidemic of jaw and dental issues around the world. Before the agricultural and industrial revolutions, which made soft processed foods more widespread, humans naturally had better jaw and dental health than modern humans do today, as can be seen by [comparing human skulls from populations that lived before and after the agricultural revolution](https://www.ucd.ie/news/2015/02FEB15/050215-Malocclusion-and-dental-crowding-arose-12000-years-ago-with-earliest-farmers-study-shows.html). Similar comparisons have also been done on generations of native populations before and after they adopt modern diets, and a similar trend is seen that after [adopting a modern diet jaws become narrower and teeth become crowded and crooked](https://www.ericdavisdental.com/facial-orthotropics-for-your-child/why-raise-unhealthy-children/how-our-ancestors-formed-full-faces-and-straight-teeth/).
 
 #### Recommendations
 - Avoid sugary foods
@@ -151,7 +151,7 @@ Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodont
 ###### Reading material:
 - [What is Orthotropics - International Association of Facial Growth Guidance (website)](https://orthotropics.com/about-orthotropics/)
 - [A hidden epidemic of shrinking jaws is behind many orthodontic and health issues, Stanford researchers say - Adam Hadhazy (website)](https://news.stanford.edu/2020/07/21/toll-shrinking-jaws-human-health/)
-- [Jaws - Sandra Kahn, Paul Ehrlich (book)](https://www.amazon.com/Jaws-Hidden-Epidemic-Sandra-Kahn/dp/1503604136)
+- [Jaws - Sandra Kahn, Paul Ehrlich (book)](https://www.sup.org/books/title/?id=29626)
 
 <br />
 
