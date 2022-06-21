@@ -19,7 +19,7 @@ Modern life has brought with it a lot of comforts and quality of life enhancemen
 - [Breathing](#breathing)
 - [Jaw and dental health](#jaw-and-dental-health)
 - [Diet and fasting](#diet-and-fasting)
-- [Microbiome](#microbiome)
+- [Human microbiome](#human-microbiome)
 - [Pollution](#pollution)
 - [Smoking](#smoking)
 
@@ -54,6 +54,9 @@ Modern humans often act against their circadian rhythm when it comes to sleep, l
 #### Learn more
 ###### Watching material: 
 - [Health lies in healthy circadian habits - Satchin Panda (16 min)](https://www.youtube.com/watch?v=erBJuxVR7IE)
+
+###### Reading material:
+- [The Circadian Code - Satchin Panda (book)](https://www.amazon.com/Circadian-Code-Supercharge-Transform-Midnight/dp/163565243X)
 
 <br />
 
@@ -182,7 +185,7 @@ In addition to time-restricted eating, as described in the section on [circadian
 
 <br />
 
-## Microbiome
+## Human microbiome
 ***
 Modern environments can sometimes be overly sterilized, which according to the [hygiene hypothesis](https://en.wikipedia.org/wiki/Hygiene_hypothesis) can lead to a lack of exposure to microorganisms, resulting in an increased risk of allergies and an impaired immune system. Overuse of antibiotics and excessive bodily washing can impair the [human microbiome](https://en.wikipedia.org/wiki/Human_microbiome), by depleting the amount of good health-promoting bacteria in the gut and on the skin. Additionally, modern diets are often lacking in fiber and healthy bacteria that can contribute to a healthy gut microbiome.
 
@@ -194,8 +197,12 @@ Modern environments can sometimes be overly sterilized, which according to the [
 
 #### Learn more
 ###### Watching material: 
-- [You Probably Don’t Need to Shower - The Atlantic (6 min)](https://www.youtube.com/watch?v=G3X6NlFk2Hk)
+- [You Probably Don’t Need to Shower - James Hamblin for The Atlantic (6 min)](https://www.youtube.com/watch?v=G3X6NlFk2Hk)
 - [Diet as a Lever to Improve Your Microbiome and Health - Erica Sonnenburg (69 min)](https://www.youtube.com/watch?v=s3MZjgtvEQ8)
+
+###### Reading material:
+- [Clean - James Hamblin (book)](https://www.amazon.com/Clean-Science-Skin-James-Hamblin/dp/0525538313)
+- [The Good Gut - Erica Sonnenburg, Justin Sonnenburg (book)](https://www.amazon.com/Good-Gut-Taking-Control-Long-term/dp/0143108085)
 
 <br />
 
@@ -224,8 +231,13 @@ Smoking can have many negative health effects, for smokers and those around smok
 
 > "We know that smoking accelerates the aging clock and makes you more likely to die than a nonsmoker – 15 years earlier, on average."
 
+Sinclair and LaPlante add on page 113 that:
+
+> "...smoking is not a private, victimless activity. The levels of DNA-damaging aromatic amines in cigarette smoke are about fifty to sixty times as high in secondhand as in firsthandsmoke."
+
 #### Recommendations
 - Do not smoke
+- Minimize exposure to secondhand smoke
 
 #### Learn more
 ###### Watching material: 
