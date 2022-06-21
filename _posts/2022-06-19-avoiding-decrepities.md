@@ -110,7 +110,7 @@ Modern sedentary lifestyles and office working environments often lead to poor p
 
 #### Learn more
 ###### Watching material: 
-- [The benefits of good posture - Murat Dalkilinç (4 min)](https://www.youtube.com/watch?v=OyK0oE5rwFY)
+- [The benefits of good posture - Murat Dalkilinç for TED-Ed (4 min)](https://www.youtube.com/watch?v=OyK0oE5rwFY)
 
 ###### Reading material:
 - [Repetitive Strain Injury - Clay Scott](https://web.eecs.umich.edu/~cscott/rsi.html)
@@ -161,12 +161,12 @@ Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodont
 
 ## Diet and fasting
 ***
-Many modern diets contain a lot of ultra-processed foods, that are high in saturated fat, salt, and sugar, and a lack of health-promoting nutrients. The long-lived populations in the [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone) all have in common a diet that is high in plants and low in meat. Dietary recommendations made based on the study of genetic mechanisms for growth and repair, such as those from [Valter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/) and [David Sinclair](https://lifespanbook.com/4-interventions/), also echo the sentiment of a diet high in whole-foods and plants being one that promotes health and longevity. Periods of fasting also provide additional benefits in terms of repair and rejuvenation.
+Many modern diets contain a lot of ultra-processed foods, that are high in trans fat, saturated fat, salt, and sugar, and a lack of health-promoting nutrients. The long-lived populations in the [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone) all have in common a [diet that is high in plants and low in meat, dairy, and sugar](https://www.bluezones.com/2020/07/blue-zones-diet-food-secrets-of-the-worlds-longest-lived-people/). Dietary recommendations made based on the study of genetic mechanisms for growth and repair, such as those from [Valter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/) and [David Sinclair](https://lifespanbook.com/4-interventions/), also echo the sentiment of a diet high in whole-foods and health-promoting plants being one that promotes health and longevity. Periods of fasting also provide additional benefits in terms of repair and rejuvenation.
 
 #### Recommendations
-Eat a healthy diet, for example one that is: 
+Eat a healthy diet, for example a [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone) inspred diet that is: 
 - high in unprocessed foods and health-promoting plants
-- low in meat, dairy, saturated fat, and sugar
+- low in meat, dairy, sugar, and processed foods
 - not too high in salt
 
 In addition to time-restricted eating, as described in the section on [circadian rhythm](#circadian-rhythm), adopt a suitable fasting regimen that can be performed intermittently and safely, such as a [5-day Fasting Mimicking Diet recommended by Valter Longo](https://www.valterlongo.com/fasting-mimicking-program-and-longevity/). Water fasting for 1-5 days is also an option for most people, but carries a higher risk of adverse effects and requires more diligent preparation.
@@ -233,7 +233,7 @@ Smoking can have many negative health effects, for smokers and those around smok
 
 Sinclair and LaPlante add on page 113 that:
 
-> "...smoking is not a private, victimless activity. The levels of DNA-damaging aromatic amines in cigarette smoke are about fifty to sixty times as high in secondhand as in firsthandsmoke."
+> "...smoking is not a private, victimless activity. The levels of DNA-damaging aromatic amines in cigarette smoke are about fifty to sixty times as high in secondhand as in firsthand smoke."
 
 #### Recommendations
 - Do not smoke
@@ -241,7 +241,7 @@ Sinclair and LaPlante add on page 113 that:
 
 #### Learn more
 ###### Watching material: 
-- [How do cigarettes affect the body? - Krishna Sudhir (5 min)](https://www.youtube.com/watch?v=Y18Vz51Nkos)
+- [How do cigarettes affect the body? - Krishna Sudhir for TED-Ed (5 min)](https://www.youtube.com/watch?v=Y18Vz51Nkos)
 
 ###### Reading material:
 - [Lifespan - David Sinclair, Matthew LaPlante (book)](https://lifespanbook.com/)
