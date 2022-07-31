@@ -9,4 +9,4 @@ Life is a massive multiplayer role-playing game. You are a character in this gam
 
 The best any of us can do is to play the hand we are dealt as best we can, within the time period and environment we have access to.
 
-The ultimate meaning of this game of life being the same as any other game, to play it in a fulfilling and enjoyable way. The ultimate honor being to make the game more fulfilling for every current and future player.
+The ultimate meaning of this game of life being the same as any other game, to play it in a fun and fulfilling way. The ultimate honor being to make the game more fun and fulfilling for every current and future player.
