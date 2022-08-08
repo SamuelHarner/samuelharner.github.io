@@ -32,10 +32,73 @@ These are some of the most fundamental data structures:
 - [Hash table](#hash-table)
 
 ## Array
+An array is an indexed list with its elements laying sequentially in memory. Most programming languages start indexing at 0, so to access the first element of an array the element at index 0 should be accessed. In a programming language creating an array of integer numbers and accessing elements may look something like this:
+
+```java
+// array that can store 5 integers
+int[] arr = new int[5];
+
+// access first element
+int first = arr[0];
+
+// access last element
+int last = arr[4];
+```
+
+Arrays provide quick access to elements, but adding more elements than the original array can fit requires creating a new bigger array and copying over the elements from the original array.
+
 ## Stack
+A stack can be thought of as a vertical stack of elements, where elements can only be added to or removed from the top of the stack (these operations are usually called `push` and `pop`). A stack therefore follows the policy of Last In, First Out (LIFO).
+
+For example if we have the following stack of numbers:
+
+```
+9  
+4  
+12
+```
+
+and we call `myStack.pop()` on the stack, we will then receive the element `9` and the stack will now be:
+
+```
+4  
+12
+```
+
+if we now add an element with `myStack.push(7)` we get:
+
+```
+7
+4  
+12
+```
+
+A stack can be a handy structure for storing information temporarily before it has to be retrieved again.
+
 ## Linked list
+A linked list is a list where each entry in the list contains an element and a link to the next entry. For example consider the following representation of a linked list:
+
+```
+(start) elem1 -> elem2 -> elem3 -> NULL (end)
+```
+
+In this linked list `elem1` is the first element and it points to the next element `elem2`. The last element is `elem3` and this is indicated by its pointer only pointing out a NULL (nothing) element.
+
+Elements can easily be added to or removed from the start and end of the linked list by changing the links associated with the first or last element, but accessing or removing other elements requires stepping through the list until the correct element has been reached.
+
 ## Queue
+A queue is a list that only allows elements to be added to the back of the queue and only removing elements form the front of the queue (these operations are usually called `enqueue` and `dequeue`). A queue follows the policy of First In, First Out (FIFO), as the element in the queue that was enqueued first is next to be dequeued. Consider the following queue:
+
+```
+(back) charlie -> bob -> alice (front)
+```
+
+where `enqueue("dennis")` would add dennis to the back of the queue, and `dequeue()` would retrieve alice from the front of the queue.
+
+A queue can be though of as a linked list with the restriction that elements can only be added to the start of the list and elements can only be removed from the end.
+
 ## Hash table
+
 
 # Algorithms
 
