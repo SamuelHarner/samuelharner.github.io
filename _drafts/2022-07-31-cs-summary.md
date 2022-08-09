@@ -20,6 +20,8 @@ The following concepts will be covered:
 
 
 # Data structures
+*How to store data effectively?*
+
 Data structures are different methods for connecting data into a collection of data. Depending on how the data is connected, the collection will vary in the properties of how data can be accessed or how the collection can be altered. For example, some data collections may allow a specific data element to be accessed directly, whereas other collections will require a searching process to find the requested element. 
 
 Which data structure is most appropriate to use will vary based on the task. For certain tasks quick access of elements may be important, whereas for other tasks it may be more important to be able to quickly add elements to the collection. In general there is no data structure that performs the best on all imaginable properties of a structure. Therefore, there are often design choices and tradeoffs to be made when choosing a data structure. 
@@ -132,6 +134,8 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 - weighted graphs (edges have weights that can represent the cost or distance for traversing an edge)
 
 # Algorithms
+*How to solve problems effectively?*
+
 Algorithms are a sequence of steps for performing a task or solving a problem. 
 
 # Complexity
