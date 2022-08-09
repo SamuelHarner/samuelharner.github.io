@@ -9,7 +9,7 @@ background: '/img/posts/life-is-a-game/earth-at-night.jpg'
 This is a short summary of the core concepts underlying computer science and programming, based on my 3-year bachelor's degree in computer science. The most basic concepts of control flow in programming (such as if-statements and for-loops) will not be covered specifically, nor will related tangential topics such as human-computer interaction or areas of mathematics used in computer science (such as linear algebara and discrete mathematics).
 
 The following concepts will be covered:
-- [Data structure](#data-structures)
+- [Data structures](#data-structures)
 - [Algorithms](#algorithms)
 - [Complexity](#complexity)
 - [Models of computation](#models-of-computation)
@@ -30,6 +30,8 @@ These are some of the most fundamental data structures:
 - [Linked list](#linked-list)
 - [Queue](#queue)
 - [Hash table](#hash-table)
+- [Binary tree](#binary-tree)
+- [Graph](#graph)
 
 ## Array
 An array is an indexed list with its elements laying sequentially in memory. Most programming languages start indexing at 0, so to access the first element of an array the element at index 0 should be accessed. In a programming language creating an array of integer numbers and accessing elements may look something like this:
@@ -102,7 +104,35 @@ Hash tables store key-value pairs. The key is used as input to a hash function t
 
 Hash tables allow values to be found and accessed quickly with the help of the key, but entries may not be sorted in a logical manner (eg. numbers in ascending order) like they can be in a list.
 
+## Binary tree
+A binary tree starts with a single root node and every node in the tree can have two child nodes, one left child node and one right child node. The following is a representation of an example binary tree:
+
+```
+    5
+   / \
+  7   3
+ / \   \
+4   8   9
+```
+
+The binary tree above is not sorted, but we could the sort the numbers such that the left sub-tree is always smaller than the parent and the right sub-tree is always bigger than the parent, in order to create a sorted binary tree as shown below:
+
+```
+    5
+   / \
+  4   8
+ /   / \
+3   7   9
+```
+
+## Graph
+A graph is a collection of nodes. The nodes can be connected together by edges. Different types of graphs can have edges with certain types of properties, for example:
+- directed graph (edges have directions which limits how they can be traversed)
+- undirected graphs (edges can be traversed in both directions)
+- weighted graphs (edges have weights that can represent the cost or distance for traversing an edge)
+
 # Algorithms
+Algorithms are a sequence of steps for performing a task or solving a problem. 
 
 # Complexity
 
