@@ -136,9 +136,10 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 # Algorithms
 *How to solve problems effectively?*
 
-Algorithms are a sequence of steps for performing a task or solving a problem. 
+Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
 
 # Complexity
+*How difficult is the problem to solve?*
 
 # Models of computation
 
