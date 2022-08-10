@@ -138,7 +138,7 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 
 Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
 
-The amount of time or steps that an algorithm takes, known as its time complexity, is usually denoted in Big-O notation, which describes an upper bound for the [time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm. Some common time complexities are listed below, where the variable n is the size of the input to the algorithm:
+The amount of time or steps that an algorithm takes, known as its time complexity, is usually denoted in [Big-O notation](https://en.wikipedia.org/wiki/Big_O_notation), which describes an upper bound for the [time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm. Some common time complexities are listed below, where the variable n is the size of the input to the algorithm:
 
 - O(1), constant time, note that O(k) simplifies to O(1) for any constant k
 - O(n), linear time
@@ -165,16 +165,25 @@ Complexity classes have been defined for classifying decision problems into diff
 A reduction is an algorithm for transforming one problem into another problem. This means that if problem A can be reduced to problem B, then an algorithm which solves problem B can be used to solve problem A.
 
 # Models of computation
+A model of computation is a model which describes how an output is computed given an input. More details about two of the most important models of computation are listed below.
 
 ## Turing machine
+A [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) is a state based universal model of computation that defines an abstract machine that manipulates symbols on a strip according to a table of rules. A Turing machine consists of:
+1. Memory pointer (to symbol on strip) and a current state
+2. Infinite strip with combination of 4 symbols (>, #, 1, 0)
+3. Finite set of states the machine can be in
 
 ## Lambda calculus
+[Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) is a functional universal model of computation that consists of 3 rules:
+1. x, **variable**
+2. ($\lambda$ x. M), **abstraction** (anonymous function that takes x and returns M)
+3. (M N), **application** (apply function M to an input N)
 
 # Programming paradigms
 
 ## Imperative
 
-### Object-oriented programming
+## Object-oriented programming
 
 ## Declarative
 
