@@ -154,7 +154,15 @@ There are different approaches to designing an algorithm for solving a problem. 
 # Complexity
 *How difficult is the problem to solve?*
 
+The most common type of problems analysed in computer science are decision problems, which are problems that have a yes or no answer. Some other types of problems are optimazation problems, that are answered with an optimal value, and construction problems, that are answered with a constructed object.
 
+Complexity classes have been defined for classifying decision problems into different difficulty categories. Some important such classes are the following:
+- P: problems that can be solved in polynomial time
+- NP: problems whose solutions can be verified in polynomial time
+- NP-hard: problems for which all NP problems can be [karp-reduced](https://en.wikipedia.org/wiki/Polynomial-time_reduction) to the problems
+- NP-complete: problems that are in NP and are NP-hard
+
+A reduction is an algorithm for transforming one problem into another problem. This means that if problem A can be reduced to problem B, then an algorithm which solves problem B can be used to solve problem A.
 
 # Models of computation
 
