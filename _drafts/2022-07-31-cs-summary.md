@@ -180,18 +180,47 @@ A [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) is a state base
 3. (M N), **application** (apply function M to an input N)
 
 # Programming paradigms
-
 ## Imperative
+[Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming) involves describing step-by-step how something should be computed and consists of:
+1. Sequences
+2. Control flow
+3. Sub-routines
+4. States
 
-## Object-oriented programming
+Example: [assembly language](https://en.wikipedia.org/wiki/Assembly_language)
+
+## Object-oriented
+[Object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming) programs contain different objects that interact with each other. Some important features are:
+- Encapsulation
+- Classes
+- Inheritance
+
+Examples: Java, Python
 
 ## Declarative
+[Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) involves describing what should be computed, not how, which minimizes or eliminates side effects that modfiy states in the program.
+
+Examples: functional and logical paradigms
 
 ### Functional
+Some characteristics of [functional programming](https://en.wikipedia.org/wiki/Functional_programming) are:
+- Immutability (state cannot be modified)
+- Pure functions (always return same output given same input, no side effects)
+- First class functions (functions can be passed as input to other functions)
+
+Examples: Haskell, Erlang, Lisp
 
 ### Logical
+[Logic programming](https://en.wikipedia.org/wiki/Logic_programming) is based on formal logic and involves specifying the conditions for a solution and then letting the logic programming language compute a solution.
+
+Example: Prolog
 
 ## Parallel programming
+[Parallel programming](https://en.wikipedia.org/wiki/Parallel_computing) seeks to utilize concurrency (handling many processes or threads at the same time) and parallelism (executing many processes or threads at the same time).
+
+A parallel programming model can more efficiently perform tasks and utilize computing resources by distributing computations and running them in parallel on the available resources.
+
+Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)) in general
 
 # Computer architecture and components
 
