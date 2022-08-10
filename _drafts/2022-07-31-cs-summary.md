@@ -138,8 +138,23 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 
 Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
 
+The amount of time or steps that an algorithm takes, known as its time complexity, is usually denoted in Big-O notation, which describes an upper bound for the [time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm. Some common time complexities are listed below, where the variable n is the size of the input to the algorithm:
+
+- O(1), constant time, note that O(k) simplifies to O(1) for any constant k
+- O(n), linear time
+- O(log(n)), logarithmic time
+- O(n*log(n)), linearithmic time
+- O(n^k), polynomial time, where k is a constant
+- O(k^n), exponential time, where k is a constant
+
+A similar corresponding analysis can be done for the [space complexity](https://en.wikipedia.org/wiki/Space_complexity#:~:text=The%20space%20complexity%20of%20an,algorithm%20until%20it%20executes%20completely.) of an algorithm complexity to analyse the possible memory usage of an algorithm.
+
+There are different approaches to designing an algorithm for solving a problem. A naive approach usually involves an **[Exhaustive Search](https://en.wikipedia.org/wiki/Brute-force_search)**, where all combinations are tested if necessary to find the solution. Another approach called a **[Greedy Algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)** uses a heuristic to find a solution that works but may not be optimal. A more sophisticated approach may utilize a **[Divide-and-Conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)** strategy, which seeks to split a problem into sub-problems, of the same type as the original problem, such that the sub-problems can be solved and the solutions thereto combined to solve the original problem. Another sophisticated approach called **[Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming)** seeks to define sub-problems that can be solved using a [recursive](https://en.wikipedia.org/wiki/Recursion_(computer_science)) process in a strategic order, such that the solutions to certain sub-problems can be stored ([memoization](https://en.wikipedia.org/wiki/Memoization)) and used to more quickly solve other sub-problems.
+
 # Complexity
 *How difficult is the problem to solve?*
+
+
 
 # Models of computation
 
