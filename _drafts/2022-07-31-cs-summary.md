@@ -223,6 +223,46 @@ A parallel programming model can more efficiently perform tasks and utilize comp
 Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)) in general
 
 # Computer architecture and components
+## Abstractions
+Computer systems are built up of several layers of abstractions. If we start at the highest level of abstraction and work our way down, we could construct the following hierarchy of abstractions:
+
+- Networked systems and systems of systems
+    - Computer system
+- Software
+    - Application software
+    - Operating system
+- Hardware/Software interface
+    - Instruction set architecture (ISA)
+- Digital hardware design
+    - Microarchitecture
+    - Logic and building blocks
+    - Digital circuits
+- Analog design and physics
+    - Analog circuits
+    - Devices and physics
+
+## Architecture
+A simplified model of modern computer architecture is the [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture):
+
+![Von Neumann architecture](/img/posts/cs-summary/Von_Neumann_Architecture.png)
+
+### Processor
+A processor is typically divided into two parts:
+
+**Data path**
+- Operates on a word of data
+- Consists of elements such as registers, memory, ALUs, etc.
+
+**Control unit**
+- Gets the current instruction from the data path and tells the data path how to execute the instruction
+
+Programming a processor...
+
+### Memory
+
+<a href="https://commons.wikimedia.org/wiki/User:Kapooht">Kapooht</a>, <a href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg">Von Neumann Architecture</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
+
+
 
 # Operating systems
 
