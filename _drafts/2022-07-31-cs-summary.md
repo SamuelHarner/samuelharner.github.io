@@ -245,6 +245,7 @@ Computer systems are built up of several layers of abstractions. If we start at 
 A simplified model of modern computer architecture is the [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture):
 
 ![Von Neumann architecture](/img/posts/cs-summary/Von_Neumann_Architecture.png)
+<a href="https://commons.wikimedia.org/wiki/User:Kapooht">Kapooht</a>, <a href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg">Von Neumann Architecture</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
 
 ### Processor
 A processor is typically divided into two parts:
@@ -260,7 +261,6 @@ Programming a processor...
 
 ### Memory
 
-<a href="https://commons.wikimedia.org/wiki/User:Kapooht">Kapooht</a>, <a href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg">Von Neumann Architecture</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
 
 
 
