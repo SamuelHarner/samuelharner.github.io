@@ -257,11 +257,11 @@ A processor is typically divided into two parts:
 **Control unit**
 - Gets the current instruction from the data path and tells the data path how to execute the instruction
 
-A processor is programmed by utilizing the processors Instruction Set Architecture (ISA) to issue instructions for the processor to execute. The ISA is an abstract model of the processor and provides an interface between software and hardware through the set of instructions.
+A processor is programmed by utilizing the processors [Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture) to issue instructions for the processor to execute. The ISA is an abstract model of the processor and provides an interface between software and hardware through the set of instructions.
 
-Microarchitecture is the implementation of the ISA, for example both Intel and AMD implement x86 ISA, but they have different implementations.
+Microarchitecture is the implementation of the ISA, for example both Intel and AMD implement [x86 ISA](https://en.wikipedia.org/wiki/X86), but they have different implementations.
 
-A program written in a compiled programming language would be compiled to the assembly language of the processor which is then converted to the corresponding machine code (instructions coded in 0s and 1s) which the processor can run.
+A program written in a [compiled programming language](https://en.wikipedia.org/wiki/Compiled_language) would be compiled to the assembly language of the processor which is then converted to the corresponding machine code (instructions coded in 0s and 1s) which the processor can run.
 
 So writing a C program for an Intel processor may proceed as following:
 
