@@ -286,7 +286,7 @@ The processor is likely to access recently accessed memory addresses again.
 **Spatial locality:**
 The processor is likely to access addresses close to each other.
 
-When the cache is full it is also important to be strategic about what data is evicted to make room for new data. This is done by using a replacement policy, such as the [Least Recently Used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)) policy which evicts the data that has not been accessed for the longest time.
+When the cache is full it is also important to be strategic about what data is evicted to make room for new data. This is done by using a replacement policy, such as the [Least Recently Used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)) policy which evicts the data that has not been used for the longest time.
 
 ### Important trends
 **[Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)**  
