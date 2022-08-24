@@ -301,6 +301,8 @@ Another important trend is the development of [multi-core](https://en.wikipedia.
 # Operating systems
 An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
 
+<p style="text-align: center;">applications <--> operating system <--> hardware</p>
+
 **Abstraction:**
 create layers of abstraction to simplify interaction with/use of the OS.
 
