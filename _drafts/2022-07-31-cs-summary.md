@@ -268,10 +268,35 @@ So writing a C program for an Intel processor may proceed as following:
 <p style="text-align: center;">C program --> x86 assembly --> machine code</p>
 
 ### Memory
+A processor has registers which it uses for storing data when carrying out instructions. The number of registers however is very limited and is therefore bolstered by computer storage called memory. Memory has many more data locations than registers but is also much slower to access than memory. The [memory hierarchy](https://en.wikipedia.org/wiki/Memory_hierarchy) of a computer is a setup of memory that tries to balance the properties of speed, capacity, and cost.
+
+![Memory hierarchy](/img/posts/cs-summary/640px-ComputerMemoryHierarchy.png)
+
+The primary memory in the form of [random-access memory (RAM)](https://en.wikipedia.org/wiki/Random-access_memory), which usually serves as a first layer of memory after the registers, is together with the registers a tempory storage location for working data while the computer is on. The secondary memory, often in the form of a hard drive, serves a permanent storage location for data.
+
+A small cache memory is also used to store frequently used data close to the processor for faster access than from the other more longer term memory.
+
+![Cache memory](/img/posts/cs-summary/cache.png)
+
+When programming the processor it is desirable to utilize the cache as much as possible to decrease time spent on retriveing data from memory. As the cache is a very small memory it is important to think strategically about what data should be loaded in to the cache, two forms of memory access patterns that are therefor important to consider are:
+
+**Temporal locality:**
+The processor is likely to access recently accessed memory addresses again.
+
+**Spatial locality:**
+The processor is likely to access addresses close to each other.
+
+When the cache is full it is also important to be strategic about what data is evicted to make room for new data. This is done by using a replacement policy, such as the [Least Recently Used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)) policy which evicts the data that has not been accessed for the longest time.
 
 ### Important trends
-- Moore's law
-- Parallelism
+**[Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)**  
+It has been observed, and treated as a goal, that the number of transistors on a microchip doubles every 2 years. The years during which this law has held has led to exponential increases in processig power, but it is predicted this trajactory will not hold for much longer.
+
+![Moore's law](/img/posts/cs-summary/Moore's_Law_Transistor_Count_1970-2020.png)
+Max Roser, Hannah Ritchie, <a href="https://commons.wikimedia.org/wiki/File:Moore's_Law_Transistor_Count_1970-2020.png">Moore's Law Transistor Count 1970-2020</a>, <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">CC BY 4.0</a>
+
+**Parallelism**  
+Another important trend is the development of [multi-core](https://en.wikipedia.org/wiki/Multi-core_processor) computer systems and [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) models that can increase computer performance by utilising parallelism.
 
 # Operating systems
 
