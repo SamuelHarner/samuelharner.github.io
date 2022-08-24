@@ -227,6 +227,8 @@ Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_
 
 # Computer architecture and components
 **Recommended litterature:** Computer Organization and Design: the Hardware/Software Interface, David A. Patterson and John L. Hennessy
+
+Some of the followings notes were derived from the course IS1500 at KTH Royal Institute of Technology
 ***
 
 ## Abstractions
@@ -306,6 +308,8 @@ Another important trend is the development of [multi-core](https://en.wikipedia.
 
 # Operating systems
 **Recommended litterature:** Operating Systems: Three Easy Pieces, Remzi and Andrea Arpaci-Dusseau
+
+Some of the followings notes were derived from the course ID1200 at KTH Royal Institute of Technology
 ***
 
 An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
@@ -321,11 +325,31 @@ present one hardware resource as several virtual resources so that several progr
 **Resource management:**
 allocate and regulate use of limited resources.
 
+## Processes
+Applications run processes. A process is:
+- a program (i.e. a sequence of operations)
+- a set of data structures
+- a set of registers
+- a means to interact with other processes or external entities
 
+In C a process consists of:
+- a program: a set of named procedures
+- a call stack: provides the means to call and return from a procedure
+- a heap where new data structres can be allocated
+- a current program pointer
+- open file descriptors, etc.
+
+## Memory management
+
+## Concurrency
+
+## File system
 
 # Software engineering
 
 ## Database technology
+**Recommended litterature:** Database Systems: The Complete Book, Héctor García-Molina, Jeffrey Ullman, and Jennifer Widom
+***
 
 ## Workflow
 
