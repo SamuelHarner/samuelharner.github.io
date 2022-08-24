@@ -134,6 +134,9 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 - weighted graphs (edges have weights that can represent the cost or distance for traversing an edge)
 
 # Algorithms
+**Recommended litterature:** Introduction to Algorithms, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+***
+
 *How to solve problems effectively?*
 
 Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
@@ -223,6 +226,9 @@ A parallel programming model can more efficiently perform tasks and utilize comp
 Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)) in general
 
 # Computer architecture and components
+**Recommended litterature:** Computer Organization and Design: the Hardware/Software Interface, David A. Patterson and John L. Hennessy
+***
+
 ## Abstractions
 Computer systems are built up of several layers of abstractions. If we start at the highest level of abstraction and work our way down, we could construct the following hierarchy of abstractions:
 
@@ -299,6 +305,9 @@ Max Roser, Hannah Ritchie, <a href="https://commons.wikimedia.org/wiki/File:Moor
 Another important trend is the development of [multi-core](https://en.wikipedia.org/wiki/Multi-core_processor) computer systems and [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) models that can increase computer performance by utilising parallelism.
 
 # Operating systems
+**Recommended litterature:** Operating Systems: Three Easy Pieces, Remzi and Andrea Arpaci-Dusseau
+***
+
 An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
 
 <p style="text-align: center;">applications <--> operating system <--> hardware</p>
