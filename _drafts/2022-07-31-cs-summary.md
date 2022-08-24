@@ -299,6 +299,18 @@ Max Roser, Hannah Ritchie, <a href="https://commons.wikimedia.org/wiki/File:Moor
 Another important trend is the development of [multi-core](https://en.wikipedia.org/wiki/Multi-core_processor) computer systems and [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) models that can increase computer performance by utilising parallelism.
 
 # Operating systems
+An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
+
+**Abstraction:**
+create layers of abstraction to simplify interaction with/use of the OS.
+
+**Virtualization:**
+present one hardware resource as several virtual resources so that several programs can share a single hardware resource.
+
+**Resource management:**
+allocate and regulate use of limited resources.
+
+
 
 # Software engineering
 
