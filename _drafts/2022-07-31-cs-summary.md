@@ -368,7 +368,10 @@ Another job of the OS is to manage and enable the execution of several things at
 Without the right considerations however, concurrent threads accessing shared resources may overwrite each others work or, if the tools (such as [locks](https://en.wikipedia.org/wiki/Lock_(computer_science))) for enabling concurrency are used incorrectly, threads may become locked in place waiting for each other access the share resources.
 
 ## File system
-
+A file system is the user space implementation of persistent storage.
+- a file is persistent (it survives the termination of a process)
+- a file can be accessed by several processes (i.e. a shared resource)
+- a file can be located given a path name
 
 # Software engineering
 
