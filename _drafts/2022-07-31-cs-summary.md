@@ -339,11 +339,11 @@ In C a process consists of:
 - a current program pointer
 - open file descriptors, etc.
 
-A model of a process can be seen in the diagram below:
+A model of a process can be seen in the diagram below, showing how memory is allocated to the code, static data, and the heap and stack as well as how they may be expanded:
 
 ![Process](/img/posts/cs-summary/process.png)
 
-Contexts are also created by the OS to store certain necessary information about the processes, so that the OS can successfully switch between different processes by switching and maintaining contexts.
+Contexts are also created by the OS to store certain necessary information about the processes, so that the OS can switch, without losing information, between different processes by switching and maintaining contexts.
 
 It is important for the OS to maintain control over processes, so as to allocate execution time fairly and prevent processes from acting dangerously (eg. accessing areas of memory that they should not). A way of achieving this is limited direct execution. This mecahnism allows a user program to execute directly but with limitations, such as:
 - it will not be able to execute all possible instructions
