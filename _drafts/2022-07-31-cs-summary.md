@@ -339,9 +339,26 @@ In C a process consists of:
 - a current program pointer
 - open file descriptors, etc.
 
+A model of a process can be seen in the diagram below:
+
+![Process](/img/posts/cs-summary/process.png)
+
+Contexts are also created by the OS to store certain necessary information about the processes, so that the OS can successfully switch between different processes by switching and maintaining contexts.
+
+It is important for the OS to maintain control over processes, so as to allocate execution time fairly and prevent processes from acting dangerously (eg. accessing areas of memory that they should not). A way of achieving this is limited direct execution. This mecahnism allows a user program to execute directly but with limitations, such as:
+- it will not be able to execute all possible instructions
+- it will only be able to access its own memory
+- it will only be allowed to executed for a limited time (interrupts can switch contexts)
+
+Hardware can also help by allowing an execution to be in either "user mode" for user programs or "kernel mode" for the OS.
+
 ## Memory management
+Another assignment of the OS is to manage memory used by processes. Among other things, this involves memory virtualization to simplify how processes handle memory addresses. This allows processes to make assumptions about the virtual memory addresses it works, such as the address of where the memory starts, instead of rewuiring knowledge about the status of the real physical memory addresses.
+
+The OS is also responsible fot keeping track of what memory is being used and what memory is free and can be allocated. The OS may also utilize different strategies for which blocks of memory should be allocated and how blocks of memory should be grouped together, so as to minimize memory fragmentation, which for example could result in many small blocks of memory to small to be useful.
 
 ## Concurrency
+
 
 ## File system
 
