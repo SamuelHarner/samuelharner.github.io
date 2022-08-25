@@ -357,10 +357,18 @@ Another assignment of the OS is to manage memory used by processes. Among other 
 
 The OS is also responsible fot keeping track of what memory is being used and what memory is free and can be allocated. The OS may also utilize different strategies for which blocks of memory should be allocated and how blocks of memory should be grouped together, so as to minimize memory fragmentation, which for example could result in many small blocks of memory to small to be useful.
 
-## Concurrency
+Some important principles the OS tries to follow are:
+- processes should be unaware of virtualization (they do not have to worry about the details)
+- processes should not be able to interfere with each other
+- execution should be as close to real execution as possible
 
+## Concurrency
+Another job of the OS is to manage and enable the execution of several things at the same time, or at least the illusion thereof, for example in the form of several programs running simultaneously. In such cases (which is most of the time), and in the case of processes running multiple concurrent threads of execution, the OS must have tools and systems in place for managing shared resources such that executions have the desired outcome. 
+
+Without the right considerations however, concurrent threads accessing shared resources may overwrite each others work or, if the tools (such as [locks](https://en.wikipedia.org/wiki/Lock_(computer_science))) for enabling concurrency are used incorrectly, threads may become locked in place waiting for each other access the share resources.
 
 ## File system
+
 
 # Software engineering
 
