@@ -373,6 +373,10 @@ A file system is the user space implementation of persistent storage.
 - a file can be accessed by several processes (i.e. a shared resource)
 - a file can be located given a path name
 
+To the user the file system basically consists of directories (folders) and files, while the behind scenes implementation may consist of a system of [nodes](https://en.wikipedia.org/wiki/Inode), that point to data blocks, and information about the status of the [nodes](https://en.wikipedia.org/wiki/Inode).
+
+To make writing to files in the file system resilient to crashes, mechanism like [journalling](https://en.wikipedia.org/wiki/Journaling_file_system) may be used. Journalling basically entails logging the modifications intended to be made, such that if the modifications are interrupted the logs can be used to recover and finish or repeat the modifications.
+
 # Software engineering
 
 ## Database technology
