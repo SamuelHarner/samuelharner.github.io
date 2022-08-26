@@ -2,7 +2,7 @@
 layout: post
 title: "3 years of Computer Science"
 subtitle: "a brief overview of some core concepts"
-background: '/img/posts/life-is-a-game/earth-at-night.jpg'
+background: '/img/posts/cs-overview/motherboard.jpeg'
 ---
 *(this post is a work in progess)*
 
@@ -264,7 +264,7 @@ Computer systems are built up of several layers of abstractions. If we start at 
 ## Architecture
 A simplified model of modern computer architecture is the [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture):
 
-![Von Neumann architecture](/img/posts/cs-summary/Von_Neumann_Architecture.png)
+![Von Neumann architecture](/img/posts/cs-overview/Von_Neumann_Architecture.png)
 <a href="https://commons.wikimedia.org/wiki/User:Kapooht">Kapooht</a>, <a href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg">Von Neumann Architecture</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
 
 ### Processor
@@ -290,13 +290,13 @@ So writing a C program for an Intel processor may proceed as following:
 ### Memory
 A processor has registers which it uses for storing data when carrying out instructions. The number of registers however is very limited and is therefore bolstered by computer storage called memory. Memory has many more data locations than registers but is also much slower to access than memory. The [memory hierarchy](https://en.wikipedia.org/wiki/Memory_hierarchy) of a computer is a setup of memory that tries to balance the properties of speed, capacity, and cost.
 
-![Memory hierarchy](/img/posts/cs-summary/640px-ComputerMemoryHierarchy.png)
+![Memory hierarchy](/img/posts/cs-overview/640px-ComputerMemoryHierarchy.png)
 
 The primary memory in the form of [random-access memory (RAM)](https://en.wikipedia.org/wiki/Random-access_memory), which usually serves as a first layer of memory after the registers, is together with the registers a tempory storage location for working data while the computer is on. The secondary memory, often in the form of a hard drive, serves a permanent storage location for data.
 
 A small cache memory is also used to store frequently used data close to the processor for faster access than from the other more longer term memory.
 
-![Cache memory](/img/posts/cs-summary/cache.png)
+![Cache memory](/img/posts/cs-overview/cache.png)
 
 When programming the processor it is desirable to utilize the cache as much as possible to decrease time spent on retriveing data from memory. As the cache is a very small memory it is important to think strategically about what data should be loaded in to the cache, two forms of memory access patterns that are therefor important to consider are:
 
@@ -312,7 +312,7 @@ When the cache is full it is also important to be strategic about what data is e
 **[Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)**  
 It has been observed, and treated as a goal, that the number of transistors on a microchip doubles every 2 years. The years during which this law has held has led to exponential increases in processig power, but it is predicted this trajactory will not hold for much longer.
 
-![Moore's law](/img/posts/cs-summary/Moore's_Law_Transistor_Count_1970-2020.png)
+![Moore's law](/img/posts/cs-overview/Moore's_Law_Transistor_Count_1970-2020.png)
 Max Roser, Hannah Ritchie, <a href="https://commons.wikimedia.org/wiki/File:Moore's_Law_Transistor_Count_1970-2020.png">Moore's Law Transistor Count 1970-2020</a>, <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">CC BY 4.0</a>
 
 **Parallelism**  
@@ -356,7 +356,7 @@ In C a process consists of:
 
 A model of a process can be seen in the diagram below, showing how memory is allocated to the code, static data, and the heap and stack as well as how they may be expanded:
 
-![Process](/img/posts/cs-summary/process.png)
+![Process](/img/posts/cs-overview/process.png)
 
 Contexts are also created by the OS to store certain necessary information about the processes, so that the OS can switch, without losing information, between different processes by switching and maintaining contexts.
 
@@ -415,7 +415,7 @@ Databases provide a means to store data about entities and the relationships bet
 
 The entity-relationship model (E-R model) of a relational database can be modeled using a modelling notation, such as Chen notation used in the diagram below for an E-R model of an online role-playing game.
 
-![E-R model](/img/posts/cs-summary/673px-ER_Diagram_MMORPG.png)
+![E-R model](/img/posts/cs-overview/673px-ER_Diagram_MMORPG.png)
 
 Another modelling framework that is popular for creating high level conceptual models of data or processes is [UML (Unified Modeling Language)](https://en.wikipedia.org/wiki/Unified_Modeling_Language).
 
