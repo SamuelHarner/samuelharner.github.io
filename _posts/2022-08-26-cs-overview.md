@@ -329,7 +329,7 @@ Some of the following notes were derived from the course ID1200 at KTH Royal Ins
 
 An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
 
-<p style="text-align: center;">applications <--> operating system <--> hardware</p>
+<p style="text-align: center;">applications <--> operating system (kernel) <--> hardware</p>
 
 **Abstraction:**
 create layers of abstraction to simplify interaction with/use of the OS.
@@ -339,6 +339,9 @@ present one hardware resource as several virtual resources so that several progr
 
 **Resource management:**
 allocate and regulate use of limited resources.
+
+![Kernel](/img/posts/cs-overview/760px-Kernel_Layout.svg.png)
+<a href="https://commons.wikimedia.org/wiki/User:Bobbo">Bobbo</a>, <a href="https://commons.wikimedia.org/wiki/File:Kernel_Layout.svg">Kernel Layout</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
 
 ## Processes
 Applications run processes. A process is:
