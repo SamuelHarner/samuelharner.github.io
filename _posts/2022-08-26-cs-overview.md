@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3 years of Computer Science"
+title: "3 years of computer science"
 subtitle: "a brief overview of some core concepts"
 background: '/img/posts/cs-overview/motherboard.jpeg'
 ---
