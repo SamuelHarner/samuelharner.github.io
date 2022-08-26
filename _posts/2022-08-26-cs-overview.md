@@ -19,6 +19,7 @@ The following concepts will be covered:
 - [Operating systems](#operating-systems)
 - [Software engineering](#software-engineering)
 
+<br />
 
 # Data structures
 *How to store data effectively?*
@@ -134,9 +135,13 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 - undirected graphs (edges can be traversed in both directions)
 - weighted graphs (edges have weights that can represent the cost or distance for traversing an edge)
 
+<br />
+
 # Algorithms
 **Recommended litterature:** Introduction to Algorithms, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+
 ***
+
 *How to solve problems effectively?*
 
 Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
@@ -153,6 +158,8 @@ The amount of time or steps that an algorithm takes, known as its time complexit
 A similar corresponding analysis can be done for the [space complexity](https://en.wikipedia.org/wiki/Space_complexity#:~:text=The%20space%20complexity%20of%20an,algorithm%20until%20it%20executes%20completely.) of an algorithm complexity to analyse the possible memory usage of an algorithm.
 
 There are different approaches to designing an algorithm for solving a problem. A naive approach usually involves an **[Exhaustive Search](https://en.wikipedia.org/wiki/Brute-force_search)**, where all combinations are tested if necessary to find the solution. Another approach called a **[Greedy Algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)** uses a heuristic to find a solution that works but may not be optimal. A more sophisticated approach may utilize a **[Divide-and-Conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)** strategy, which seeks to split a problem into sub-problems, of the same type as the original problem, such that the sub-problems can be solved and the solutions thereto combined to solve the original problem. Another sophisticated approach called **[Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming)** seeks to define sub-problems that can be solved using a [recursive](https://en.wikipedia.org/wiki/Recursion_(computer_science)) process in a strategic order, such that the solutions to certain sub-problems can be stored ([memoization](https://en.wikipedia.org/wiki/Memoization)) and used to more quickly solve other sub-problems.
+
+<br />
 
 # Complexity
 *How difficult is the problem to solve?*
@@ -181,6 +188,8 @@ A [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) is a state base
 1. x, **variable**
 2. ($\lambda$ x. M), **abstraction** (anonymous function that takes x and returns M)
 3. (M N), **application** (apply function M to an input N)
+
+<br />
 
 # Programming paradigms
 ## Imperative
@@ -225,11 +234,15 @@ A parallel programming model can more efficiently perform tasks and utilize comp
 
 Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)) in general
 
+<br />
+
 # Computer architecture and components
 **Recommended litterature:** Computer Organization and Design: the Hardware/Software Interface, David A. Patterson and John L. Hennessy
 
 Some of the followings notes were derived from the course IS1500 at KTH Royal Institute of Technology
+
 ***
+
 ## Abstractions
 Computer systems are built up of several layers of abstractions. If we start at the highest level of abstraction and work our way down, we could construct the following hierarchy of abstractions:
 
@@ -305,11 +318,15 @@ Max Roser, Hannah Ritchie, <a href="https://commons.wikimedia.org/wiki/File:Moor
 **Parallelism**  
 Another important trend is the development of [multi-core](https://en.wikipedia.org/wiki/Multi-core_processor) computer systems and [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) models that can increase computer performance by utilising parallelism.
 
+<br />
+
 # Operating systems
 **Recommended litterature:** Operating Systems: Three Easy Pieces, Remzi and Andrea Arpaci-Dusseau
 
 Some of the followings notes were derived from the course ID1200 at KTH Royal Institute of Technology
+
 ***
+
 An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
 
 <p style="text-align: center;">applications <--> operating system <--> hardware</p>
@@ -375,13 +392,17 @@ To the user the file system basically consists of directories (folders) and file
 
 To make writing to files in the file system resilient to crashes, mechanism like [journalling](https://en.wikipedia.org/wiki/Journaling_file_system) may be used. Journalling basically entails logging the modifications intended to be made, such that if the modifications are interrupted the logs can be used to recover and finish or repeat the modifications.
 
+<br />
+
 # Software engineering
 
 ## Database systems
 **Recommended litterature:** Database Systems: The Complete Book, Héctor García-Molina, Jeffrey Ullman, and Jennifer Widom
 
 Some of the followings notes were derived from the course DD1368 at KTH Royal Institute of Technology
+
 ***
+
 **Data vs Information**  
 Data is unprocessed information that can be converted into knowledge used to take actions.
 
