@@ -379,9 +379,31 @@ To make writing to files in the file system resilient to crashes, mechanism like
 
 # Software engineering
 
-## Database technology
+## Database systems
 **Recommended litterature:** Database Systems: The Complete Book, Héctor García-Molina, Jeffrey Ullman, and Jennifer Widom
+
+Some of the followings notes were derived from the course DD1368 at KTH Royal Institute of Technology
 ***
+
+**Data vs Information**  
+Data is unprocessed information that can be converted into knowledge used to take actions.
+
+<p style="text-align: center;">Data --> Information --> Knowledge --> Action</p>
+
+**Databases**  
+Databases provide a means to store data about entities and the relationships between entities, for example a database that has the entities people and cars and the relationships of which people the cars are registered to.
+
+[Relational databases](https://en.wikipedia.org/wiki/Relational_database) sort data in a structured tabular format and are often queried using the language [SQL (Structured Query Language)](https://en.wikipedia.org/wiki/SQL) that implements the principles of [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra). [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra) provides a theory for how data can be selected from tables using criteria as well as how tables of data can be combined to gather together data from different entities or relationships.
+
+The entity-relationship model (E-R model) of a relational database can be modeled using a modelling notation, such as Chen notation used in the diagram below for an E-R model of an online role-playing game.
+
+![E-R model](/img/posts/cs-summary/673px-ER_Diagram_MMORPG.png)
+
+Another modelling framework that is popular for creating high level conceptual models of data or processes is [UML (Unified Modeling Language)](https://en.wikipedia.org/wiki/Unified_Modeling_Language).
+
+[Non-relational databases](https://en.wikipedia.org/wiki/NoSQL) provide a document-oriented means for storing data in a format that is non-tabular and less strucutred than the [relational model](https://en.wikipedia.org/wiki/Relational_model). This format is suitable for [unstructured data](https://en.wikipedia.org/wiki/Unstructured_data) and [semi-structured data](https://en.wikipedia.org/wiki/Semi-structured_data).
+
+
 
 ## Workflow
 
