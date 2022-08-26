@@ -4,6 +4,7 @@ title: "3 years of Computer Science"
 subtitle: "a brief summary of core concepts"
 background: '/img/posts/life-is-a-game/earth-at-night.jpg'
 ---
+*(this post is a work in progess)*
 
 # Introduction
 This is a short overview of some of the core concepts underlying computer science and programming, based on my 3-year bachelor's degree in computer science. The most basic concepts of control flow in programming (such as if-statements and for-loops) will not be covered specifically, nor will related tangential topics such as human-computer interaction or areas of mathematics used in computer science (such as linear algebara and discrete mathematics). 
@@ -390,7 +391,7 @@ Data is unprocessed information that can be converted into knowledge used to tak
 
 <p style="text-align: center;">Data --> Information --> Knowledge --> Action</p>
 
-**Databases**  
+**Database types**  
 Databases provide a means to store data about entities and the relationships between entities, for example a database that has the entities people and cars and the relationships of which people the cars are registered to.
 
 [Relational databases](https://en.wikipedia.org/wiki/Relational_database) sort data in a structured tabular format and are often queried using the language [SQL (Structured Query Language)](https://en.wikipedia.org/wiki/SQL) that implements the principles of [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra). [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra) provides a theory for how data can be selected from tables using criteria as well as how tables of data can be combined to gather together data from different entities or relationships.
@@ -403,7 +404,17 @@ Another modelling framework that is popular for creating high level conceptual m
 
 [Non-relational databases](https://en.wikipedia.org/wiki/NoSQL) provide a document-oriented means for storing data in a format that is non-tabular and less strucutred than the [relational model](https://en.wikipedia.org/wiki/Relational_model). This format is suitable for [unstructured data](https://en.wikipedia.org/wiki/Unstructured_data) and [semi-structured data](https://en.wikipedia.org/wiki/Semi-structured_data).
 
+**Database design**
 
+When designing the model or [schema](https://en.wikipedia.org/wiki/Database_schema) of the database it is important to structure the database such that it minimizes the presence of redundant information that may lead to anomalies such as certain data being updated in one place but not another. This is done through a process of decomposition that ensures modularity of the groups of data that will be stored. Key values (such as unique IDs) and dependencies are then utilized to connect groups of data together, so that they for example can be updated together or joined for the sake of a query.
+
+**Database modification**
+
+When performing [database transactions](https://en.wikipedia.org/wiki/Database_transaction) (groups of operations performed together) it is important to guarantee that data validity will be preserved, for example by following the **[ACID](https://en.wikipedia.org/wiki/ACID)** properties:
+- **Atomicity:** every operation in a transaction succeeds or the transaction fails and nothing is changed
+- **Consistency:** transaction is subject to constraints of the database
+- **Isolation:** transactions must be independent, i.e. resulting changes should be as if transactions were done sequentially
+- **Durability:** effect of a transaction must not be lost once transaction has completed
 
 ## Workflow
 
