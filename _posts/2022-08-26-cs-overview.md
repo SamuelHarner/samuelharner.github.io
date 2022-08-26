@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 years of Computer Science"
-subtitle: "a brief summary of core concepts"
+subtitle: "a brief overview of some core concepts"
 background: '/img/posts/life-is-a-game/earth-at-night.jpg'
 ---
 *(this post is a work in progess)*
