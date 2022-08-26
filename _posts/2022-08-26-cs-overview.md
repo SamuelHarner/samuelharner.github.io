@@ -239,7 +239,7 @@ Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_
 # Computer architecture and components
 **Recommended litterature:** Computer Organization and Design: the Hardware/Software Interface, David A. Patterson and John L. Hennessy
 
-Some of the followings notes were derived from the course IS1500 at KTH Royal Institute of Technology
+Some of the following notes were derived from the course IS1500 at KTH Royal Institute of Technology
 
 ***
 
@@ -323,7 +323,7 @@ Another important trend is the development of [multi-core](https://en.wikipedia.
 # Operating systems
 **Recommended litterature:** Operating Systems: Three Easy Pieces, Remzi and Andrea Arpaci-Dusseau
 
-Some of the followings notes were derived from the course ID1200 at KTH Royal Institute of Technology
+Some of the following notes were derived from the course ID1200 at KTH Royal Institute of Technology
 
 ***
 
@@ -399,7 +399,7 @@ To make writing to files in the file system resilient to crashes, mechanism like
 ## Database systems
 **Recommended litterature:** Database Systems: The Complete Book, Héctor García-Molina, Jeffrey Ullman, and Jennifer Widom
 
-Some of the followings notes were derived from the course DD1368 at KTH Royal Institute of Technology
+Some of the following notes were derived from the course DD1368 at KTH Royal Institute of Technology
 
 ***
 
