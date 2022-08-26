@@ -137,7 +137,6 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 # Algorithms
 **Recommended litterature:** Introduction to Algorithms, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
 ***
-
 *How to solve problems effectively?*
 
 Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
@@ -231,7 +230,6 @@ Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_
 
 Some of the followings notes were derived from the course IS1500 at KTH Royal Institute of Technology
 ***
-
 ## Abstractions
 Computer systems are built up of several layers of abstractions. If we start at the highest level of abstraction and work our way down, we could construct the following hierarchy of abstractions:
 
@@ -312,7 +310,6 @@ Another important trend is the development of [multi-core](https://en.wikipedia.
 
 Some of the followings notes were derived from the course ID1200 at KTH Royal Institute of Technology
 ***
-
 An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
 
 <p style="text-align: center;">applications <--> operating system <--> hardware</p>
@@ -385,7 +382,6 @@ To make writing to files in the file system resilient to crashes, mechanism like
 
 Some of the followings notes were derived from the course DD1368 at KTH Royal Institute of Technology
 ***
-
 **Data vs Information**  
 Data is unprocessed information that can be converted into knowledge used to take actions.
 
