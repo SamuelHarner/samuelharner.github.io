@@ -417,8 +417,10 @@ When performing [database transactions](https://en.wikipedia.org/wiki/Database_t
 - **Durability:** effect of a transaction must not be lost once transaction has completed
 
 ## Workflow
+As software development is often a very iterative process, agile workflows such as [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) are popular ways of managing projects. SCRUM usually consists of short sprints of work to achieve goals that will vary between different sprints. This model intends to enable continous iteration and delivery of results and quick response to demands. SCRUM is also usually characterized by a shared visual workspace where tasks are catalogued as well as a SCRUM-master that helps to manage and delegate tasks within the development team.
 
-### Version control
+## Version control
 
-### Testing
+
+## Testing
 
