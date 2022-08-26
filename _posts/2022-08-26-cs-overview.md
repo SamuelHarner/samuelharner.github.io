@@ -340,7 +340,7 @@ present one hardware resource as several virtual resources so that several progr
 **Resource management:**
 allocate and regulate use of limited resources.
 
-![Kernel](/img/posts/cs-overview/760px-Kernel_Layout.svg.png)
+![Kernel](/img/posts/cs-overview/kernel.png)
 <a href="https://commons.wikimedia.org/wiki/User:Bobbo">Bobbo</a>, <a href="https://commons.wikimedia.org/wiki/File:Kernel_Layout.svg">Kernel Layout</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
 
 ## Processes
