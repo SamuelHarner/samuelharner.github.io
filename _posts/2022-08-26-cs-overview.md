@@ -7,7 +7,7 @@ background: '/img/posts/cs-overview/motherboard.jpeg'
 *(this post is a work in progess)*
 
 # Introduction
-This is a short overview of some of the core concepts underlying computer science and programming, based on my 3-year bachelor's degree in computer science at KTH Royal Institute of Technology. The most basic concepts of control flow in programming (such as if-statements and for-loops) will not be covered specifically, nor will related tangential topics such as human-computer interaction or areas of mathematics used in computer science (such as linear algebara and discrete mathematics). 
+This is a short overview of some of the core concepts underlying computer science and programming, based on my 3-year bachelor's degree in computer science at KTH Royal Institute of Technology. The most basic concepts of control flow in programming (such as if-statements and for-loops) will not be covered specifically, nor will related tangential topics such as human-computer interaction or areas of mathematics used in computer science (such as linear algebra and discrete mathematics). 
 
 The following concepts will be covered:
 - [Data structures](#data-structures)
