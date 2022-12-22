@@ -148,12 +148,12 @@ Algorithms are a sequence of steps for performing a task or solving a problem. S
 
 The amount of time or steps that an algorithm takes, known as its time complexity, is usually denoted in [Big-O notation](https://en.wikipedia.org/wiki/Big_O_notation), which describes an upper bound for the [time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm. Some common time complexities are listed below, where the variable n is the size of the input to the algorithm:
 
-- O(1), constant time, note that O(k) simplifies to O(1) for any constant k
-- O(n), linear time
-- O(log(n)), logarithmic time
-- O(n*log(n)), linearithmic time
-- O(n^k), polynomial time, where k is a constant
-- O(k^n), exponential time, where k is a constant
+- $O(1)$, constant time, note that $O(k)$ simplifies to $O(1)$ for any constant $k$
+- $O(n)$, linear time
+- $O(\log n)$, logarithmic time
+- $O(n \log n)$, linearithmic time
+- $O(n^k)$, polynomial time, where $k$ is a constant
+- $O(k^n)$, exponential time, where $k$ is a constant
 
 A similar corresponding analysis can be done for the [space complexity](https://en.wikipedia.org/wiki/Space_complexity#:~:text=The%20space%20complexity%20of%20an,algorithm%20until%20it%20executes%20completely.) of an algorithm complexity to analyse the possible memory usage of an algorithm.
 
