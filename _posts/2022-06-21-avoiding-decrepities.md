@@ -177,6 +177,7 @@ In addition to time-restricted eating, as described in the section on [circadian
 - [Fasting: Awakening the Rejuvenation from Within - Valter Longo (19 min)](https://www.youtube.com/watch?v=dVArDzYynYc)
 
 ###### Reading material:
+- [Foods that fight inflammation - Harvard Health Publishing (website)](https://www.health.harvard.edu/staying-healthy/foods-that-fight-inflammation)
 - [Blue Zones - Dan Buettner (book)](https://www.thebluezonesstore.com/collections/all-products/products/the-blue-zones-second-edition-9-lessons-for-living-longer-from-people-whove-lived-the-longest-signed-paperback-edition)
 - [Longevity Diet for Adults - Valter Longo (website)](https://www.valterlongo.com/daily-longevity-diet-for-adults/)
 - [Fasting Mimicking Program and Longevity - Valter Longo (website)](https://www.valterlongo.com/fasting-mimicking-program-and-longevity/)
@@ -201,6 +202,7 @@ Modern environments can sometimes be overly sterilized, which according to the [
 - [Diet as a Lever to Improve Your Microbiome and Health - Erica Sonnenburg (69 min)](https://www.youtube.com/watch?v=s3MZjgtvEQ8)
 
 ###### Reading material:
+- [Showering daily \-\- is it necessary? - Robert H. Shmerling, MD for Harvard Health Publishing (website)](https://www.health.harvard.edu/blog/showering-daily-is-it-necessary-2019062617193)
 - [Clean - James Hamblin (book)](https://www.amazon.com/Clean-Science-Skin-James-Hamblin/dp/0525538313)
 - [The Good Gut - Erica Sonnenburg, Justin Sonnenburg (book)](https://www.amazon.com/Good-Gut-Taking-Control-Long-term/dp/0143108085)
 
