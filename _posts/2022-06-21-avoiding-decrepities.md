@@ -64,7 +64,7 @@ Modern humans often act against their circadian rhythm when it comes to sleep, l
 ***
 In modern society, being sedentary has to a large extent become the norm. While past humans often were active by necessity, modern humans need to make deliberate decisions to be active, for example by choosing to walk or cycle instead of using motorized transport. 
 
-The healthiest and longest-lived populations identified around the world, the so-called [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone), get a lot of natural movement every day from activities such as walking, gardening, or preparing food. Incorporating natural movement into one’s lifestyle is a good starting point for avoiding sedentarism, however for optimal longevity benefits intensity of movement is also important. David Sinclair, Professor of Genetics at Harvard Medical School, and his co-author Matthew LaPlante write on page 104 of their book *Lifespan*:
+The healthiest and longest-lived populations identified around the world, the so-called [Blue Zones](https://en.wikipedia.org/wiki/Blue_zone), get a lot of natural movement every day from activities such as walking, gardening, or preparing food. Incorporating natural movement into one’s lifestyle is a good starting point for avoiding sedentarism, however for optimal longevity benefits intensity of movement is also important. David Sinclair, Professor of Genetics at Harvard Medical School, and his co-author Matthew LaPlante write in their book *Lifespan*:
 
 > "There is a difference between a leisurely walk and a brisk run, however. To engage our longevity genes fully, intensity does matter."
 
@@ -229,11 +229,11 @@ Pollution can exist in many different forms (air pollution, water pollution, etc
 
 ## Smoking
 ***
-Smoking can have many negative health effects, for smokers and those around smokers, for example in the form of impaired lung function, increased risk of cancer, and accelerated aging. David Sinclair and Matthew LaPlante write on pages 71-72 of their book *Lifespan*:
+Smoking can have many negative health effects, for smokers and those around smokers, for example in the form of impaired lung function, increased risk of cancer, and accelerated aging. David Sinclair and Matthew LaPlante write in their book *Lifespan*:
 
 > "We know that smoking accelerates the aging clock and makes you more likely to die than a nonsmoker – 15 years earlier, on average."
 
-Sinclair and LaPlante add on page 113 that:
+Sinclair and LaPlante add that:
 
 > "...smoking is not a private, victimless activity. The levels of DNA-damaging aromatic amines in cigarette smoke are about fifty to sixty times as high in secondhand as in firsthand smoke."
 
