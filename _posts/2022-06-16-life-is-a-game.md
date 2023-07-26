@@ -5,7 +5,7 @@ subtitle: "(my personal perspective on life)"
 background: '/img/posts/life-is-a-game/earth-at-night.jpg'
 ---
 
-Life is a massive multiplayer role-playing game. You are a character in this game and so is everyone else, the universe our shared game world. We are all dealt a hand of cards, a form of character sheet, with a set of characteristics and a set of possibilities. How we choose to play our hand and what possibilities we pursue is up to us.
+Life is a massive multiplayer role-playing game. You are a character in this game and so is everyone else, the universe our shared game world. We are all dealt a hand of cards, in reality a set of genetic and environmental conditions, that provide a set of characteristics and possibilities. How we choose to play our hand and what possibilities we pursue is up to us.
 
 The best any of us can do is to play the hand we are dealt as best we can, within the time period and environment we have access to.
 
