@@ -15,6 +15,7 @@ The following concepts will be covered:
 - [Complexity](#complexity)
 - [Models of computation](#models-of-computation)
 - [Programming paradigms](#programming-paradigms)
+- [Programming languages](#programming-languages)
 - [Computer architecture and components](#computer-architecture-and-components)
 - [Operating systems](#operating-systems)
 - [Software engineering](#software-engineering)
@@ -164,13 +165,13 @@ There are different approaches to designing an algorithm for solving a problem. 
 # Complexity
 *How difficult is the problem to solve?*
 
-The most common type of problems analysed in computer science are decision problems, which are problems that have a yes or no answer. Some other types of problems are optimazation problems, that are answered with an optimal value, and construction problems, that are answered with a constructed object.
+The most common type of problems analysed in computer science are decision problems, which are problems that have a yes or no answer. Some other types of problems are optimization problems, that are answered with an optimal value, and construction problems, that are answered with a constructed object.
 
 Complexity classes have been defined for classifying decision problems into different difficulty categories. Some important such classes are the following:
-- P: problems that can be solved in polynomial time
-- NP: problems whose solutions can be verified in polynomial time
-- NP-hard: problems for which all NP problems can be [karp-reduced](https://en.wikipedia.org/wiki/Polynomial-time_reduction) to the problems
-- NP-complete: problems that are in NP and are NP-hard
+- **P**: problems that can be solved in polynomial time
+- **NP**: problems whose solutions can be verified in polynomial time
+- **NP-hard**: problems for which all NP problems can be [karp-reduced](https://en.wikipedia.org/wiki/Polynomial-time_reduction) to the problems
+- **NP-complete**: problems that are in NP and are NP-hard
 
 A reduction is an algorithm for transforming one problem into another problem. This means that if problem A can be reduced to problem B, then an algorithm which solves problem B can be used to solve problem A.
 
@@ -236,6 +237,20 @@ Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_
 
 <br />
 
+# Programming languages
+Programming languages are designed to follow a set of well-defined rules in order to allow for a compiler to reliably translate the source code of a programming language to executable machine code. A starting point for understanding how to construct such a language is studying [formal languages](https://en.wikipedia.org/wiki/Formal_language), which provide a rigorous structure for defining what is valid or not in a language. Ultimately, a programming language must define its own [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)), where the grammar for how different constructs of the language (such as operations, variables, etc) can be combined. The goal is to create a well-defined grammar that is not ambiguous, such that the output of a valid program is reliable.
+
+When the rules of programming language have been set, a corresponding compiler is then needed to convert a program into executable code. This compiler will need the following:
+
+- Lexical analyzer (lexer) that recognizes the different tokens of the programming language (keywords, variables, parameters, methods, operators, etc.)
+- Syntactic analyzer (parser) that recognizes syntactic constructs (statements, expressions, varaible declarations, etc.) and creates a [parse tree](https://en.wikipedia.org/wiki/Parse_tree) that is easy to evaluate
+
+A full run of a program may therefore follow the following model:
+
+(Input program) Characters -> [Lexer] -> Tokens ->[Parser] -> Parse Tree -> [Evaluation] -> some change of state (Output) 
+
+<br />
+
 # Computer architecture and components
 **Recommended litterature:** Computer Organization and Design: the Hardware/Software Interface, David A. Patterson and John L. Hennessy
 
@@ -288,7 +303,7 @@ So writing a C program for an Intel processor may proceed as following:
 <p style="text-align: center;">C program --> x86 assembly --> machine code</p>
 
 ### Memory
-A processor has registers which it uses for storing data when carrying out instructions. The number of registers however is very limited and is therefore bolstered by computer storage called memory. Memory has many more data locations than registers but is also much slower to access than memory. The [memory hierarchy](https://en.wikipedia.org/wiki/Memory_hierarchy) of a computer is a setup of memory that tries to balance the properties of speed, capacity, and cost.
+A processor has registers which it uses for storing data when carrying out instructions. The number of registers however is very limited and is therefore bolstered by computer storage called memory. Memory has many more data locations than registers but is also much slower to access than registers. The [memory hierarchy](https://en.wikipedia.org/wiki/Memory_hierarchy) of a computer is a setup of memory that tries to balance the properties of speed, capacity, and cost.
 
 ![Memory hierarchy](/img/posts/cs-overview/640px-ComputerMemoryHierarchy.png)
 
@@ -298,7 +313,7 @@ A small cache memory is also used to store frequently used data close to the pro
 
 ![Cache memory](/img/posts/cs-overview/cache.png)
 
-When programming the processor it is desirable to utilize the cache as much as possible to decrease time spent on retriveing data from memory. As the cache is a very small memory it is important to think strategically about what data should be loaded in to the cache, two forms of memory access patterns that are therefor important to consider are:
+When programming the processor it is desirable to utilize the cache as much as possible to decrease time spent on retriveing data from memory. As the cache is a very small memory it is important to think strategically about what data should be loaded in to the cache, two forms of memory access patterns that are therefore important to consider are:
 
 **Temporal locality:**
 The processor is likely to access recently accessed memory addresses again.
@@ -310,7 +325,7 @@ When the cache is full it is also important to be strategic about what data is e
 
 ### Important trends
 **[Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)**  
-It has been observed, and treated as a goal, that the number of transistors on a microchip doubles every 2 years. The years during which this law has held has led to exponential increases in processig power, but it is predicted this trajactory will not hold for much longer.
+It has been observed, and treated as a goal, that the number of transistors on a microchip doubles every 2 years. The years during which this law has held has led to exponential increases in processing power, but it is predicted this trajectory will not hold for much longer.
 
 ![Moore's law](/img/posts/cs-overview/Moore's_Law_Transistor_Count_1970-2020.png)
 Max Roser, Hannah Ritchie, <a href="https://commons.wikimedia.org/wiki/File:Moore's_Law_Transistor_Count_1970-2020.png">Moore's Law Transistor Count 1970-2020</a>, <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">CC BY 4.0</a>
@@ -327,7 +342,7 @@ Some of the following notes were derived from the course ID1200 at KTH Royal Ins
 
 ***
 
-An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualiszation, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
+An [operating system (OS)](https://en.wikipedia.org/wiki/Operating_system) provides abstraction, virtualization, managing of resources, and serves as an interface between the applications running on a computer and the computer's hardware.
 
 <p style="text-align: center;">applications <--> operating system (kernel) <--> hardware</p>
 
@@ -371,9 +386,9 @@ It is important for the OS to maintain control over processes, so as to allocate
 Hardware can also help by allowing an execution to be in either "user mode" for user programs or "kernel mode" for the OS.
 
 ## Memory management
-Another assignment of the OS is to manage memory used by processes. Among other things, this involves memory virtualization to simplify how processes handle memory addresses. This allows processes to make assumptions about the virtual memory addresses it works, such as the address of where the memory starts, instead of rewuiring knowledge about the status of the real physical memory addresses.
+Another assignment of the OS is to manage memory used by processes. Among other things, this involves memory virtualization to simplify how processes handle memory addresses. This allows processes to make assumptions about the virtual memory addresses, such as the address of where the memory starts, instead of requiring knowledge about the status of the real physical memory addresses.
 
-The OS is also responsible fot keeping track of what memory is being used and what memory is free and can be allocated. The OS may also utilize different strategies for which blocks of memory should be allocated and how blocks of memory should be grouped together, so as to minimize memory fragmentation, which for example could result in many small blocks of memory to small to be useful.
+The OS is also responsible for keeping track of what memory is being used and what memory is free and can be allocated. The OS may also utilize different strategies for which blocks of memory should be allocated and how blocks of memory should be grouped together, so as to minimize memory fragmentation, which for example could result in many small blocks of memory to small to be useful.
 
 Some important principles the OS tries to follow are:
 - processes should be unaware of virtualization (they do not have to worry about the details)
@@ -383,7 +398,7 @@ Some important principles the OS tries to follow are:
 ## Concurrency
 Another job of the OS is to manage and enable the execution of several things at the same time, or at least the illusion thereof, for example in the form of several programs running simultaneously. In such cases (which is most of the time), and in the case of processes running multiple concurrent threads of execution, the OS must have tools and systems in place for managing shared resources such that executions have the desired outcome. 
 
-Without the right considerations however, concurrent threads accessing shared resources may overwrite each others work or, if the tools (such as [locks](https://en.wikipedia.org/wiki/Lock_(computer_science))) for enabling concurrency are used incorrectly, threads may become locked in place waiting for each other access the share resources.
+Without the right considerations however, concurrent threads accessing shared resources may overwrite each others work or, if the tools (such as [locks](https://en.wikipedia.org/wiki/Lock_(computer_science))) for enabling concurrency are used incorrectly, threads may become locked in place waiting for each other to access the shared resources.
 
 ## File system
 A file system is the user space implementation of persistent storage.
@@ -440,9 +455,9 @@ When performing [database transactions](https://en.wikipedia.org/wiki/Database_t
 As software development is often a very iterative process, agile workflows such as [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) are popular ways of managing projects. SCRUM usually consists of short sprints of work to achieve goals that will vary between different sprints. This model intends to enable continous iteration and delivery of results and quick response to demands. SCRUM is also usually characterized by a shared visual workspace where tasks are catalogued as well as a SCRUM-master that helps to manage and delegate tasks within the development team.
 
 ## Version control
-In order to store changes and versions of the software a [version control system (VCS)](https://en.wikipedia.org/wiki/Version_control) is used. The most popular VCS likely being Git combined with GitHub for online storage and access to Git code repositories. A VCS creates a history of all the changes being made to the codebase, so that changes can be rolled back or to enable separate branches of development from a shared starting point to more easily be combined later by mergin them onto the main branch of the codebase.
+In order to store changes and versions of the software a [version control system (VCS)](https://en.wikipedia.org/wiki/Version_control) is used. The most popular VCS likely being Git combined with GitHub for online storage and access to Git code repositories. A VCS creates a history of all the changes being made to the codebase, so that changes can be rolled back or to enable separate branches of development from a shared starting point to more easily be combined later by merging them onto the main branch of the codebase.
 
 ## Testing
-[Software testing](https://en.wikipedia.org/wiki/Software_testing) is used to try to verify that th software produces the correct outcomes. Testing may be done through manual testing of applications, to try to generate and detect improper outcomes, or through automated tests, that may focus more on verifying the behaviour of indivdual functions or components used within the application.
+[Software testing](https://en.wikipedia.org/wiki/Software_testing) is used to try to verify that the software produces the correct outcomes. Testing may be done through manual testing of applications, to try to generate and detect improper outcomes, or through automated tests, that may focus more on verifying the behaviour of indivdual functions or components used within the application.
 
 The [test-driven development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) philosophy of software development advocates for tests to be written, that serve as a specification of necessary functionality, before the software is written. The TDD approach aims to ensure software correctness throughout the whole software development process, as opposed to writing tests at the end of the process when a large technical debt that involves systematic errors or bugs has already been incurred, thus risking more time and larger [code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) efforts being necessary to achieve correctness. While an advantage of TDD may be argued that it focuses devlopment on necessary functionality, a disadvantage may be argued that it limits the speed of development and the process of quick iteration. A tradeoff may therefore exist between correctness and speed or flexibility of development.
