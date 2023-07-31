@@ -238,7 +238,16 @@ Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_
 <br />
 
 # Programming languages
+Programming languages are designed to follow a set of well-defined rules in order to allow for a compiler to reliably translate the source code of a programming language to executable machine code. A starting point for understanding how to construct such a language is studying [formal languages](https://en.wikipedia.org/wiki/Formal_language), which provide a rigorous structure for defining what is valid or not in a language. Ultimately, a programming language must define its own [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)), where the grammar for how different constructs of the language (such as operations, variables, etc) can be combined. The goal is to create a well-defined grammar that is not ambiguous, such that the output of a valid program is reliable.
 
+When the rules of programming language have been set, a corresponding compiler is then needed to convert a program into executable code. This compiler will need the following:
+
+- Lexical analyzer (lexer) that recognizes the different tokens of the programming language (keywords, variables, parameters, methods, operators, etc.)
+- Syntactic analyzer (parser) that recognizes syntactic constructs (statements, expressions, varaible declarations, etc.) and creates a [parse tree](https://en.wikipedia.org/wiki/Parse_tree) that is easy to evaluate
+
+A full run of a program may therefore follow the following model:
+
+(Input program) Characters -> [Lexer] -> Tokens ->[Parser] -> Parse Tree -> [Evaluation] -> some change of state (Output) 
 
 <br />
 
