@@ -4,7 +4,6 @@ title: "3 years of computer science"
 subtitle: "a brief overview of some core concepts"
 background: '/img/posts/cs-overview/motherboard.jpeg'
 ---
-*(this post is a work in progess)*
 
 # Introduction
 This is a short overview of some of the core concepts underlying computer science and programming, based on my 3-year bachelor's degree in computer science at KTH Royal Institute of Technology. The most basic concepts of control flow in programming (such as if-statements and for-loops) will not be covered specifically, nor will related tangential topics such as human-computer interaction or areas of mathematics used in computer science (such as linear algebra and discrete mathematics). 
@@ -240,7 +239,7 @@ Examples: Golang, [multithreading](https://en.wikipedia.org/wiki/Multithreading_
 # Programming languages
 Programming languages are designed to follow a set of well-defined rules in order to allow for a compiler to reliably translate the source code of a programming language to executable machine code. A starting point for understanding how to construct such a language is studying [formal languages](https://en.wikipedia.org/wiki/Formal_language), which provide a rigorous structure for defining what is valid or not in a language. Ultimately, a programming language must define its own [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)), where the grammar for how different constructs of the language (such as operations, variables, etc) can be combined. The goal is to create a well-defined grammar that is not ambiguous, such that the output of a valid program is reliable.
 
-When the rules of programming language have been set, a corresponding compiler is then needed to convert a program into executable code. This compiler will need the following:
+When the rules of a programming language have been set, a corresponding compiler is then needed to convert a program into executable code. This compiler will need the following:
 
 - Lexical analyzer (lexer) that recognizes the different tokens of the programming language (keywords, variables, parameters, methods, operators, etc.)
 - Syntactic analyzer (parser) that recognizes syntactic constructs (statements, expressions, varaible declarations, etc.) and creates a [parse tree](https://en.wikipedia.org/wiki/Parse_tree) that is easy to evaluate
