@@ -242,11 +242,13 @@ Programming languages are designed to follow a set of well-defined rules in orde
 When the rules of a programming language have been set, a corresponding compiler is then needed to convert a program into executable code. This compiler will need the following:
 
 - Lexical analyzer (lexer) that recognizes the different tokens of the programming language (keywords, variables, parameters, methods, operators, etc.)
-- Syntactic analyzer (parser) that recognizes syntactic constructs (statements, expressions, varaible declarations, etc.) and creates a [parse tree](https://en.wikipedia.org/wiki/Parse_tree) that is easy to evaluate
+- Syntactic analyzer (parser) that recognizes syntactic constructs (statements, expressions, variable declarations, etc.) and creates a [parse tree](https://en.wikipedia.org/wiki/Parse_tree) that is easy to evaluate
 
 A full run of a program may therefore follow the following model:
 
+```
 (Input program) Characters -> [Lexer] -> Tokens ->[Parser] -> Parse Tree -> [Evaluation] -> some change of state (Output) 
+```
 
 <br />
 
