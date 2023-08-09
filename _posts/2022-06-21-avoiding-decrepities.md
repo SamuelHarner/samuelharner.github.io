@@ -198,13 +198,12 @@ Modern environments can sometimes be overly sterilized, which according to the [
 
 #### Learn more
 ###### Watching material: 
-- [You Probably Don’t Need to Shower - James Hamblin for The Atlantic (6 min)](https://www.youtube.com/watch?v=G3X6NlFk2Hk)
 - [Diet as a Lever to Improve Your Microbiome and Health - Erica Sonnenburg (69 min)](https://www.youtube.com/watch?v=s3MZjgtvEQ8)
 
 ###### Reading material:
-- [Showering daily \-\- is it necessary? - Robert H. Shmerling, MD for Harvard Health Publishing (website)](https://www.health.harvard.edu/blog/showering-daily-is-it-necessary-2019062617193)
-- [Clean - James Hamblin (book)](https://www.amazon.com/Clean-Science-Skin-James-Hamblin/dp/0525538313)
 - [The Good Gut - Erica Sonnenburg, Justin Sonnenburg (book)](https://www.amazon.com/Good-Gut-Taking-Control-Long-term/dp/0143108085)
+- [Clean - James Hamblin (book)](https://www.amazon.com/Clean-Science-Skin-James-Hamblin/dp/0525538313)
+- [Showering daily \-\- is it necessary? - Robert H. Shmerling, MD for Harvard Health Publishing (website)](https://www.health.harvard.edu/blog/showering-daily-is-it-necessary-2019062617193)
 
 <br />
 
