@@ -149,6 +149,7 @@ Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodont
 
 #### Learn more
 ###### Watching material: 
+- [Why do we have crooked teeth when our ancestors didn’t? - G. Richard Scott for TED-Ed (5 min)](https://www.youtube.com/watch?v=li1kO3hg4iE)
 - [Airway and TMJ English - Dr. Konstantin Ronkin (3 min)](https://www.youtube.com/watch?v=PVxlL_lMces)
 - [Orthotropics: improving your health and facial beauty - Mike Mew (18 min)](https://www.youtube.com/watch?v=VtrJWHjma1o)
 
