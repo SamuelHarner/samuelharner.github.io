@@ -141,9 +141,9 @@ Pollution, allergies, and poor jaw health has led to more people developing mout
 Mouth breathing, bad posture,  soft and sugary modern food, retractive orthodontics (such as braces), and unnecessary removal of teeth have led to an epidemic of jaw and dental issues around the world. Before the agricultural and industrial revolutions, which made soft processed foods more widespread, humans naturally had better jaw and dental health than modern humans do today, as can be seen by [comparing human skulls from populations that lived before and after the agricultural revolution](https://www.ucd.ie/news/2015/02FEB15/050215-Malocclusion-and-dental-crowding-arose-12000-years-ago-with-earliest-farmers-study-shows.html). Similar comparisons have also been done on generations of native populations before and after they adopt modern diets, and a similar trend is seen that after [adopting a modern diet jaws become narrower and teeth become crowded and crooked](https://www.ericdavisdental.com/facial-orthotropics-for-your-child/why-raise-unhealthy-children/how-our-ancestors-formed-full-faces-and-straight-teeth/).
 
 #### Recommendations
-- Avoid sugary foods
+- Limit sugary foods
 - Brush your teeth morning and night
-- Eat unprocessed foods that facilitate more chewing
+- Eat unprocessed foods that facilitate more chewing, or supplement chewing with chewing gum
 - When not using your mouth, assume a resting posture of; mouth closed, tongue against roof of mouth, and teeth close together or in light contact
 - More can be learned about promoting healthy jaw development from the field of Orthotropics
 
