@@ -4,4 +4,4 @@ title: About
 background: '/img/tunnelbulb.jpg'
 ---
 
-This site is a place for me to challenge myself in putting thoughts and ideas into a legible format.
+Just a site for creating my own articles.
