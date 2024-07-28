@@ -104,7 +104,7 @@ where `enqueue("dennis")` would add dennis to the back of the queue, and `dequeu
 A queue can be though of as a linked list with the restriction that elements can only be added to the start of the list and elements can only be removed from the end.
 
 ## Hash table
-Hash tables store key-value pairs. The key is used as input to a hash function to decide at which index in the hash table the key-value pair should be stored. Ideally each key-value pair would be stored at a unique index, but collisions can occur and be acommadated by having a list at each index.
+Hash tables store key-value pairs. The key is used as input to a hash function to decide at which index in the hash table the key-value pair should be stored. Ideally each key-value pair would be stored at a unique index, but collisions can occur and be accommodated by having a list at each index.
 
 Hash tables allow values to be found and accessed quickly with the help of the key, but entries may not be sorted in a logical manner (eg. numbers in ascending order) like they can be in a list.
 
