@@ -435,6 +435,7 @@ Databases provide a means to store data about entities and the relationships bet
 The entity-relationship model (E-R model) of a relational database can be modeled using a modelling notation, such as Chen notation used in the diagram below for an E-R model of an online role-playing game.
 
 ![E-R model](/img/posts/cs-overview/673px-ER_Diagram_MMORPG.png)
+<a href="https://en.wikipedia.org/wiki/User:TheMattrix">TheMattrix</a>, <a href="https://commons.wikimedia.org/wiki/File:ER_Diagram_MMORPG.png">ER Diagram MMORPG</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a>
 
 Another modelling framework that is popular for creating high level conceptual models of data or processes is [UML (Unified Modeling Language)](https://en.wikipedia.org/wiki/Unified_Modeling_Language).
 
