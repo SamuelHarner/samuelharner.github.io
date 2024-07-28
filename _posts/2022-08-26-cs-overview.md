@@ -93,7 +93,7 @@ In this linked list `elem1` is the first element and it points to the next eleme
 Elements can easily be added to or removed from the start and end of the linked list by changing the links associated with the first or last element, but accessing or removing other elements requires stepping through the list until the correct element has been reached.
 
 ## Queue
-A queue is a list that only allows elements to be added to the back of the queue and only removing elements form the front of the queue (these operations are usually called `enqueue` and `dequeue`). A queue follows the policy of First In, First Out (FIFO), as the element in the queue that was enqueued first is next to be dequeued. Consider the following queue:
+A queue is a list that only allows elements to be added to the back of the queue and only removing elements from the front of the queue (these operations are usually called `enqueue` and `dequeue`). A queue follows the policy of First In, First Out (FIFO), as the element in the queue that was enqueued first is next to be dequeued. Consider the following queue:
 
 ```
 (back) charlie -> bob -> alice (front)
@@ -146,7 +146,7 @@ A graph is a collection of nodes. The nodes can be connected together by edges. 
 
 Algorithms are a sequence of steps for performing a task or solving a problem. Some common types of algorithms are sorting algorithms and searching algorithms.
 
-The amount of time or steps that an algorithm takes, known as its time complexity, is usually denoted in [Big-O notation](https://en.wikipedia.org/wiki/Big_O_notation), which describes an upper bound for the [time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm. Some common time complexities are listed below, where the variable n is the size of the input to the algorithm:
+The amount of time or steps that an algorithm takes, known as its time complexity, is usually denoted in [Big-O notation](https://en.wikipedia.org/wiki/Big_O_notation), which describes an upper bound for the [time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm. Some common time complexities are listed below, where the variable $n$ is the size of the input to the algorithm:
 
 - $O(1)$, constant time, note that $O(k)$ simplifies to $O(1)$ for any constant $k$
 - $O(n)$, linear time
